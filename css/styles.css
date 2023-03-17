@@ -2,12 +2,13 @@ body {
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	height:100vh;
 	margin:0px;
+/*	padding:10px;*/
 	background-color: #272B50;
 }
 
 .main-group {
 	display:flex;
-	align-items: center;
+/*	align-items: center;*/
 	height: 100%;
 }
 
@@ -15,7 +16,7 @@ body {
 	display:flex;
 	flex-direction: column;
 	height:100%;
-	min-width:150px;
+	min-width:100px;
 /*	padding:50px 50px;*/
 
 	justify-content: space-around;
@@ -41,10 +42,11 @@ body {
 	flex-flow: row wrap;
 	justify-content: space-around;
 	gap:32px;
-	align-items: space-between;
-	padding-right:50px;
-	padding-left:50px;
-	z-index: 2;
+/*	align-items: space-between;*/
+	padding:10px 50px;
+	margin:10px;
+/*	z-index: 2;*/
+/*	heigh:100%;*/
 }
 
 .link-box {
@@ -52,6 +54,7 @@ body {
 	height:200px;
 	border-radius: 12px;
 	background-color:#2E4730;
+	display:flex;
 }
 
 
@@ -61,7 +64,7 @@ body {
 nav{
 	float: none; 
 	clear: both;
-	min-width: 150px; 
+	min-width: 100px; 
 	flex-shrink: 0;
 	height: 100%;
 /*  margin: 10% auto;*/
